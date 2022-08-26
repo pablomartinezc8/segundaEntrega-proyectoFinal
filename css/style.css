@@ -14,7 +14,7 @@ nav img, svg {
     vertical-align: middle;
 }
 .colorNav{
-    width: 100vw;
+    
     z-index: 100;
      position: sticky;
     top: 0;
