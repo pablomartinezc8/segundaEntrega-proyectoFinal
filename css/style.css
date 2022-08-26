@@ -1,0 +1,178 @@
+*{ 
+    color: rgb(245, 238, 238);
+    margin: 0;
+    padding: 0;
+    
+}
+.tituloUno{
+    text-align: center;
+    font-size: 32px;
+}
+
+nav img, svg {
+    width: 150px;
+    vertical-align: middle;
+}
+.colorNav{
+    width: 100vw;
+    z-index: 100;
+     position: sticky;
+    top: 0;
+    color: rgb(43, 43, 69);
+    /* background-image: radial-gradient(#04353b 40%, #00d4ff); */
+    background-image: radial-gradient(#04353bab 40%, #00d4ffc2);
+    /* background-color: rgb(25, 25, 61); */
+}
+.imagenesCards{
+    margin: 20px;
+}
+body{
+    color: #f7f8f9;
+    background-color: black;
+}
+h2 {
+    background-image: linear-gradient(to left, #0a172a,rgb(172 188 200));
+    margin: 20px 5px;
+    text-align: center;
+}
+.colorBoton{
+    color: black;
+    background-color: rgb(156, 159, 162);
+    border-color: rgb(241, 249, 0);
+}
+.tituloFooter{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.list-group{
+    --bs-list-group-bg: #4969a1;
+}
+.sectionImg {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionImg img{
+    width: 200px;
+    height: 200px;
+}
+.card-body {
+    
+    --bs-card-bg: rgb(14, 1, 1);
+    --bs-card-border-color: #0dcaf0;
+}
+.imgCarousel {
+    margin: 20px 0px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.imagenGrande{
+    border-radius: 17px;
+    width: 100vw;
+}
+.imgCarousel2{
+    width: 50vw;
+    height: 200px;
+}
+.tituloIndex{
+    border: solid rgb(19, 18, 14) 1px;
+    border-radius: 90px;
+    background-image: radial-gradient(#04353b 40%, #00d4ff);
+}
+.seccionDos{
+    border-radius: 43px;
+    background-image: radial-gradient(#04353b 40%, #00d4ff);
+}
+.colorCards{
+    background-color: rgb(10, 10, 45);
+}
+.tresImagenes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-whatsapp{
+    color: #248124;
+    font-size: 8rem;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    text-align: center;
+}
+.sectionFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.listaMercados{
+    margin: 0px 40px;
+    font-size: calc(1.3rem + .6vw);}
+
+    .sectionImg img {
+        padding: 20px;
+        width: 82vw;
+        height: 245px;
+    }
+
+.imgPuerto{
+    width: 100vw;
+}
+.tresServ {
+    display: flex;
+    flex-direction: column;
+}
+.colorBoton {
+    color: #fbfbfb;
+    background-color: #000000;
+    border-color: #fbfbfb;
+}
+
+@media (min-width: 768px) {
+    .sectionFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .imgCarousel2 {
+        width: 50vw;
+        height: 300px;
+    }
+    .fa-whatsapp {
+        color: #248124;
+        font-size: 6rem;
+        display: inline-block;
+        height: 49px;
+        width: 51px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 98px;
+        right: 66px;
+        text-align: center;
+    }
+    .sectionImg {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .sectionImg img {
+        padding: 20px;
+        width: 51vw;
+        height: 282px;
+    }
+    .tresServ {
+        display: flex;
+        flex-direction: row;
+    }
+}
