@@ -99,8 +99,7 @@ h1{
     display: flex;
     justify-content: space-around;
 }
-
-.fa-whatsapp{
+.fa-whatsapp {
     color: #248124;
     font-size: 8rem;
     display: inline-block;
@@ -150,16 +149,16 @@ h1{
         width: 50vw;
         height: 300px;
     }
-    .fa-whatsapp {
+    .fa-whatsapp{
         color: #248124;
-        font-size: 6rem;
+        font-size: 8rem;
         display: inline-block;
-        height: 49px;
-        width: 51px;
+        height: 120px;
+        width: 120px;
         border-radius: 50%;
         position: fixed;
-        bottom: 98px;
-        right: 66px;
+        bottom: 80px;
+        right: 80px;
         text-align: center;
     }
     .sectionImg {
