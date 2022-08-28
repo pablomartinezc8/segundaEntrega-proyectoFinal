@@ -2,6 +2,7 @@
     color: rgb(245, 238, 238);
     margin: 0;
     padding: 0;
+    top: 0;
     
 }
 .tituloUno{
@@ -138,6 +139,11 @@ h1{
     background-color: #000000;
     border-color: #fbfbfb;
 }
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
 
 @media (min-width: 768px) {
     .sectionFooter {
@@ -178,5 +184,10 @@ h1{
     .col-lg-4 {
         flex: 0 0 auto;
         width: 30.33333333%;
+    }
+    .row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     }
 }
