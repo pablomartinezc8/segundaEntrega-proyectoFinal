@@ -76,7 +76,8 @@ h1{
 }
 .imagenGrande{
     border-radius: 17px;
-    width: 100vw;
+    width: 99vw;
+    margin: 2px;
 }
 .imgCarousel2{
     width: 50vw;
